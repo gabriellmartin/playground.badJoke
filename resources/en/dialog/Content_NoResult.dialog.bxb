@@ -1,0 +1,14 @@
+dialog (NoResult) {
+  match {
+    Content {
+      from-output {
+        GetContent {
+          from-input {
+            SearchTerm (searchTerm)
+          }
+        }
+      }
+    }
+  }
+  template("I'm embarrassed to admit it, but I don't have any jokes about #{value(searchTerm)}.")
+}
