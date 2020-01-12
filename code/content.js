@@ -1,6 +1,6 @@
 module.exports = [
   {
-    "text": "apple banana",
+    "text": "apple",
     "tags": []
   }
 ]
